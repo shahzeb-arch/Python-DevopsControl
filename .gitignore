@@ -3,3 +3,8 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 app.log
+devops.db
+devops.db-journal
+devops.db-wal
+devops.db-shm
+devops.sqbpro

@@ -28,3 +28,19 @@ Ab next kya?
 Bhai, ab configuration aur testing ka ek chhota review karke database integration ki taraf badhenge. Abhi data servers.json mein save ho raha hai; database use karne se data ko manage karna zyada scalable aur reliable banane ka next step milega.
 
 Mera suggestion hai ki pehle SQLite use karein, kyunki setup simple hai aur database ke concepts practical tareeke se seekh sakte ho.
+
+
+###################
+Step 1: JSON se database par kyun shift karna hai?
+python -c "import sqlite3; conn=sqlite3.connect('devops.db'); print(conn.execute(\"SELECT name FROM sqlite_master WHERE type='table'\").fetchall()); conn.close()"
+
+Next step: Existing JSON data migrate karna
+
+##########################
+
+Next step: Database se Python mein data read karna
+Abhi data database mein hai, lekin hamari FastAPI application abhi bhi servers.json se data read karti hai.
+
+Agla goal hai:
+
+FastAPI → services.py → SQLite database

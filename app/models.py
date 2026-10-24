@@ -24,3 +24,7 @@ class ServerStats(BaseModel):
 class ServerUpdate(BaseModel):
     status: str | None = None
     cpu: float | None = None
+
+
+class ServerRecord(Server):
+    id: int
