@@ -1,0 +1,15 @@
+def greet():
+    print("Welcome to DevOps Control Center!")
+
+greet()
+
+
+
+
+def — function define karta hai.
+
+greet — function ka naam hai.
+
+() — function call karte waqt inputs dene ki jagah bhi ho sakti hai.
+
+greet() — function ko execute karta hai.

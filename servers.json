@@ -1,0 +1,27 @@
+[
+  {
+    "name": "web-01",
+    "status": "running",
+    "cpu": 45.0
+  },
+  {
+    "name": "web-02",
+    "status": "running",
+    "cpu": 87.0
+  },
+  {
+    "name": "app-01",
+    "status": "stopped",
+    "cpu": 98.0
+  },
+  {
+    "name": "db-01",
+    "status": "running",
+    "cpu": 78.0
+  },
+  {
+    "name": "worker-01",
+    "status": "pending",
+    "cpu": 15.0
+  }
+]

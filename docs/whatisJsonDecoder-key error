@@ -1,0 +1,5 @@
+KeyError — Python dictionary mein jis key ko access kar rahe hain, woh key maujood nahi hai.
+Example: server["cpu"], jab cpu key missing ho.
+
+JSONDecodeError — JSON ka format ya syntax invalid hai. Example: {"name": "web-01" mein closing } missing hai.
+Ye JSON ke andar string ya int ki business validation nahi karta.

@@ -1,0 +1,9 @@
+fastapi==0.143.3
+uvicorn==0.54.0
+pytest==9.1.1
+httpx==0.28.1
+
+# fastapi — API banane ke liye.
+# uvicorn — API server run karne ke liye.
+# pytest — automated tests chalane ke liye.
+# httpx — FastAPI TestClient ke testing support ke liye.
